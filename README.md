@@ -1,2 +1,2 @@
-# public-R-scripts
+# R scripts
  R scripts
