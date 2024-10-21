@@ -40,7 +40,7 @@ myggplottheme<-theme(title=element_text(size=10,face="bold"),
 #######################################################################################
 #R base plots.
 
-blankplot<-function(){
+plot_blank<-function(){
   plot(1,type="n",axes=F,xlab="",ylab="")
 }
 
@@ -70,7 +70,7 @@ plot_rainbowcolors<-function(){
   }
 }
 
-ggplot_colors<-function(){
+plot_ggplot_colors<-function(){
   grDevices::colors()
 }
 
